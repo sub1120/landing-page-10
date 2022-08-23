@@ -27,7 +27,7 @@ body{
 }
 
 .nav-bar{
-    width: 1000px;
+    width: 80%;
     border-bottom: 2px solid #ffffff;
 }
 
@@ -44,7 +44,7 @@ body{
 }
 
 .nav-item.call{
-    width: 300px;
+    width: 30%;
 }
 
 #call{
@@ -90,6 +90,7 @@ body{
     padding:20px;
     padding-top:0px;
     font-weight: 700;
+    font-family: 'Oxygen';
 }
 
 .sticky2{
@@ -103,6 +104,7 @@ body{
     padding:20px;
     padding-top:0px;
     font-weight: 700;
+    font-family: 'Oxygen';
 }
 
 
@@ -112,4 +114,74 @@ body{
 
 .sticky2-card{
     width: 80px;
+}
+
+@media (max-width:1200px){
+    .main{
+        margin:30px 30px;
+    }
+
+    .nav-link{
+        font-size: 15px;
+    }
+
+    .logo{
+        font-size: 20px;
+    }
+
+    .content-left h1{
+        font-size: 40px;
+    }
+
+    .more-btn button{
+        padding:15px 30px;
+    }
+}
+
+@media (max-width:900px){
+    .nav-link{
+        display: none;
+    }
+
+    .nav-item.call .nav-link{
+        display: block;
+
+    }
+
+    .nav-item.call{
+        width: 60%;
+    }
+    
+    .nav-bar{
+        border-bottom: none;
+    }
+
+    .content-left{
+        padding-top:50px;
+    }
+
+    .content-left h1{
+        font-size: 30px;
+    }
+
+    .content{
+        position: unset;
+    }
+
+    .sticky1{
+        position: unset;
+        inset: unset;
+        width: 90%;
+        height: unset;
+        padding:10px;
+    }
+
+    .sticky2{
+        position: unset;
+        inset: unset;
+        width: 90%;
+        height: unset;
+        padding:10px;
+        margin-top: 20px;
+    }
 }
