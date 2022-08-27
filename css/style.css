@@ -22,6 +22,11 @@ body{
     font-weight: 700;
 }
 
+.menu img{
+    display: none;
+    width: 30px;
+}
+
 .logo{
     font-size: 30px;
 }
@@ -121,10 +126,6 @@ body{
         margin:30px 30px;
     }
 
-    .nav-link{
-        font-size: 15px;
-    }
-
     .logo{
         font-size: 20px;
     }
@@ -143,17 +144,16 @@ body{
         display: none;
     }
 
-    .nav-item.call .nav-link{
-        display: block;
+    .nav-bar{
+        border-bottom: none;
+    }
 
+    .menu img{
+        display: block;
     }
 
     .nav-item.call{
-        width: 60%;
-    }
-    
-    .nav-bar{
-        border-bottom: none;
+        display: none;
     }
 
     .content-left{
